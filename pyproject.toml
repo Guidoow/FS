@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FS"
+version = "0.0.1"
+authors = [
+  { name="Guido Moran", email="guidomoran.ap@gmail.com" },
+]
+description = "A lite module that allows you to send single files or entire directorys over the local network."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Guidoow/FS"
+"Bug Tracker" = "https://github.com/Guidoow/FS/issues"
